@@ -19,7 +19,7 @@ myHouse.material = "brick";
 let getKeysObj = function () {
   for (let key in myHouse) {
     if (myHouse.hasOwnProperty(key)) {
-      console.log(key, myHouse[key]);
+      console.log(`ключ: ${key}, значение: ${myHouse[key]}`);
     }
   }
 };
@@ -27,6 +27,6 @@ let getKeysObj = function () {
 getKeysObj();
 
 /* Если принципиально, чтобы возвращала только ключб тогда меняем 
-console.log(key, myHouse[key]) 
+console.log(`ключ: ${key}, значение: ${myHouse[key]}`)
 на
-console.log(key) */
+console.log(`ключ: ${key}) */
