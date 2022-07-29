@@ -12,6 +12,6 @@ let exam = function (data) {
   return data.hasOwnProperty("someoneText");
 };
 
-exam(string);
+console.log(exam(string));
 
-exam(object);
+console.log(exam(object));
